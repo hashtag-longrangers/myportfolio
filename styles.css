@@ -1,0 +1,108 @@
+
+/* body{
+    font-family: 'Kumbh Sans', sans-serif;
+    /* font-family: 'Montserrat', sans-serif;
+    font-family: 'MuseoModerno', cursive;
+    font-family: 'Ubuntu', sans-serif; */
+ */
+
+.intro{
+    margin-top: 100px;
+}
+.intro-image{
+    border-radius: 15px;
+}
+html,span,body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+.background {
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 0;
+  z-index: 0;
+}
+
+/*INTRO PART ENDS HERE*/
+
+#skillz{
+    text-align: center;
+    background-image: url("./images/skill-back.jpg");
+    border-radius: 30px;
+}
+.h1skills{
+    font-size: 50px;
+    padding-top: 30px;
+    color: whitesmoke;
+}
+.skill-text{
+    color: white;
+    font-size: 20px;
+    margin: 30px 30px 30px 30px;
+    padding-bottom: 20px;
+}
+.silk{
+    margin-top: 90px;
+}
+.progress{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.imgs{
+    align-items: center;
+}
+
+/* PROJECT SECTION */
+.h1project{
+    font-size: 50px;
+    padding-top: 30px;
+    color: black;
+}
+
+#projects{
+    text-align: center;
+}
+
+/* PROJECT TEXT */
+
+.project-text{
+    margin-top: 90px;
+    font-size: 20px;
+    margin: 30px 30px 30px 30px;
+    padding-bottom: 20px;
+}
+
+.tinimg{
+    border-radius: 60px;
+}
+
+.tin-text{
+    margin-top: 45px;
+}
+
+.drum-text{
+    margin-top: 20px;
+}
+
+ /* HOVER OPTIONS */
+ .hover01 figure img {
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .5s ease-in-out;
+	transition: .5s ease-in-out;
+}
+.hover01 figure:hover img {
+	-webkit-transform: scale(1.1); /*1.3*/
+	transform: scale(1.1);
+}
+
+ /* LET'S CONNECT SECTION */
+
+ .h1connect{
+    margin-top: 100px;
+    text-align: center;
+    font-size: 50px;
+}
